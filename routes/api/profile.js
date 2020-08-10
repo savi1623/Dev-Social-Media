@@ -10,6 +10,7 @@ const router = express.Router();
 
 const Profile = require('../../models/Profile.js');
 const User = require('../../models/User.js');
+const Post = require('../../models/Posts.js');
 
 // @route  GET api/profile/me
 // @desc   Get current users profile
